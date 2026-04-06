@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a5c4b"/>
+      <stop offset="100%" style="stop-color:#27ae7a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgba(255,255,255,0.12)"/>
+      <stop offset="100%" style="stop-color:rgba(255,255,255,0)"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <rect width="800" height="250" fill="url(#accent)"/>
+  <circle cx="680" cy="85" r="115" fill="rgba(255,255,255,0.04)"/>
+  <circle cx="120" cy="415" r="80" fill="rgba(255,255,255,0.04)"/>
+  <!-- Heart shape -->
+  <path d="M400 220 Q400 180 370 160 Q340 140 310 160 Q280 180 280 210 Q280 250 400 310 Q520 250 520 210 Q520 180 490 160 Q460 140 430 160 Q400 180 400 220Z" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.4)" stroke-width="2"/>
+  <!-- EKG heartbeat line -->
+  <polyline points="200,230 280,230 310,230 330,230 350,210 365,270 380,150 395,280 410,200 425,230 450,230 520,230 600,230" fill="none" stroke="rgba(255,255,255,0.85)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Pulse dots -->
+  <circle cx="200" cy="230" r="3" fill="rgba(255,255,255,0.5)"/>
+  <circle cx="600" cy="230" r="3" fill="rgba(255,255,255,0.5)"/>
+  <!-- Program name -->
+  <text x="400" y="380" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="bold" fill="white" letter-spacing="1">EKG Technician</text>
+  <text x="400" y="415" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="rgba(255,255,255,0.7)" letter-spacing="2">STUDENTS IN TRAINING</text>
+  <rect x="300" y="435" width="200" height="2" rx="1" fill="rgba(255,255,255,0.3)"/>
+</svg>

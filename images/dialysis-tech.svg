@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2c3e6b"/>
+      <stop offset="100%" style="stop-color:#4a6fa5"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgba(255,255,255,0.12)"/>
+      <stop offset="100%" style="stop-color:rgba(255,255,255,0)"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <rect width="800" height="250" fill="url(#accent)"/>
+  <circle cx="660" cy="90" r="110" fill="rgba(255,255,255,0.04)"/>
+  <circle cx="140" cy="410" r="85" fill="rgba(255,255,255,0.04)"/>
+  <!-- Kidney shape -->
+  <path d="M370 130 Q320 130 310 170 Q300 210 330 240 Q350 260 370 250 Q390 240 390 210 Q390 190 400 180 Q410 190 410 210 Q410 240 430 250 Q450 260 470 240 Q500 210 490 170 Q480 130 430 130 Q400 120 370 130Z" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.7)" stroke-width="3"/>
+  <!-- Filter lines inside kidney -->
+  <line x1="340" y1="180" x2="370" y2="180" stroke="rgba(255,255,255,0.4)" stroke-width="1.5"/>
+  <line x1="340" y1="200" x2="370" y2="200" stroke="rgba(255,255,255,0.4)" stroke-width="1.5"/>
+  <line x1="340" y1="220" x2="360" y2="220" stroke="rgba(255,255,255,0.4)" stroke-width="1.5"/>
+  <line x1="430" y1="180" x2="460" y2="180" stroke="rgba(255,255,255,0.4)" stroke-width="1.5"/>
+  <line x1="430" y1="200" x2="460" y2="200" stroke="rgba(255,255,255,0.4)" stroke-width="1.5"/>
+  <line x1="440" y1="220" x2="460" y2="220" stroke="rgba(255,255,255,0.4)" stroke-width="1.5"/>
+  <!-- Tubes -->
+  <path d="M350 260 L350 290" stroke="rgba(255,255,255,0.5)" stroke-width="2" stroke-linecap="round"/>
+  <path d="M450 260 L450 290" stroke="rgba(255,255,255,0.5)" stroke-width="2" stroke-linecap="round"/>
+  <!-- Program name -->
+  <text x="400" y="370" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="bold" fill="white" letter-spacing="1">Dialysis Technician</text>
+  <text x="400" y="405" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="rgba(255,255,255,0.7)" letter-spacing="2">STUDENTS IN TRAINING</text>
+  <rect x="300" y="425" width="200" height="2" rx="1" fill="rgba(255,255,255,0.3)"/>
+</svg>

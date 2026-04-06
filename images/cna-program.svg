@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2a5470"/>
+      <stop offset="100%" style="stop-color:#4a90b8"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgba(255,255,255,0.12)"/>
+      <stop offset="100%" style="stop-color:rgba(255,255,255,0)"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <rect width="800" height="250" fill="url(#accent)"/>
+  <circle cx="670" cy="90" r="105" fill="rgba(255,255,255,0.04)"/>
+  <circle cx="130" cy="410" r="85" fill="rgba(255,255,255,0.04)"/>
+  <!-- Caring hands icon -->
+  <!-- Left hand -->
+  <path d="M350 220 Q330 200 320 210 Q310 220 330 250 L360 270" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="3" stroke-linecap="round"/>
+  <!-- Right hand -->
+  <path d="M450 220 Q470 200 480 210 Q490 220 470 250 L440 270" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="3" stroke-linecap="round"/>
+  <!-- Cupped hands bottom -->
+  <path d="M340 260 Q350 290 400 300 Q450 290 460 260" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.7)" stroke-width="3" stroke-linecap="round"/>
+  <!-- Heart in hands -->
+  <path d="M400 230 Q400 215 390 208 Q380 200 370 208 Q360 215 360 225 Q360 240 400 260 Q440 240 440 225 Q440 215 430 208 Q420 200 410 208 Q400 215 400 230Z" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.6)" stroke-width="2"/>
+  <!-- Small cross on heart -->
+  <line x1="400" y1="225" x2="400" y2="245" stroke="rgba(255,255,255,0.5)" stroke-width="2" stroke-linecap="round"/>
+  <line x1="390" y1="235" x2="410" y2="235" stroke="rgba(255,255,255,0.5)" stroke-width="2" stroke-linecap="round"/>
+  <!-- Program name -->
+  <text x="400" y="370" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="bold" fill="white" letter-spacing="1">CNA Program</text>
+  <text x="400" y="405" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="rgba(255,255,255,0.7)" letter-spacing="2">STUDENTS IN TRAINING</text>
+  <rect x="300" y="425" width="200" height="2" rx="1" fill="rgba(255,255,255,0.3)"/>
+</svg>
