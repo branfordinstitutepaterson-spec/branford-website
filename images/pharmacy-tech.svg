@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a5a3a"/>
+      <stop offset="100%" style="stop-color:#2e8b57"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgba(255,255,255,0.12)"/>
+      <stop offset="100%" style="stop-color:rgba(255,255,255,0)"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <rect width="800" height="250" fill="url(#accent)"/>
+  <circle cx="670" cy="85" r="110" fill="rgba(255,255,255,0.04)"/>
+  <circle cx="130" cy="415" r="80" fill="rgba(255,255,255,0.04)"/>
+  <!-- Pill bottle -->
+  <rect x="365" y="155" width="70" height="120" rx="6" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.7)" stroke-width="3"/>
+  <!-- Bottle cap -->
+  <rect x="360" y="140" width="80" height="20" rx="4" fill="rgba(255,255,255,0.7)"/>
+  <!-- Bottle label area -->
+  <rect x="372" y="200" width="56" height="40" rx="3" fill="rgba(255,255,255,0.15)"/>
+  <!-- Rx symbol -->
+  <text x="400" y="228" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="rgba(255,255,255,0.8)" font-weight="bold" font-style="italic">Rx</text>
+  <!-- Pills scattered -->
+  <ellipse cx="340" cy="285" rx="12" ry="7" fill="rgba(255,255,255,0.4)" transform="rotate(-30, 340, 285)"/>
+  <ellipse cx="465" cy="270" rx="12" ry="7" fill="rgba(255,255,255,0.35)" transform="rotate(20, 465, 270)"/>
+  <circle cx="450" cy="295" r="7" fill="rgba(255,255,255,0.3)"/>
+  <!-- Program name -->
+  <text x="400" y="370" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="bold" fill="white" letter-spacing="1">Pharmacy Technician</text>
+  <text x="400" y="405" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="rgba(255,255,255,0.7)" letter-spacing="2">STUDENTS IN TRAINING</text>
+  <rect x="300" y="425" width="200" height="2" rx="1" fill="rgba(255,255,255,0.3)"/>
+</svg>

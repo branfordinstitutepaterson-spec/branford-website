@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6b2c3e"/>
+      <stop offset="100%" style="stop-color:#a54a6f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgba(255,255,255,0.12)"/>
+      <stop offset="100%" style="stop-color:rgba(255,255,255,0)"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <rect width="800" height="250" fill="url(#accent)"/>
+  <circle cx="670" cy="95" r="105" fill="rgba(255,255,255,0.04)"/>
+  <circle cx="130" cy="405" r="90" fill="rgba(255,255,255,0.04)"/>
+  <!-- Blood drop shape -->
+  <path d="M400 110 Q400 110 360 190 Q330 240 330 260 Q330 300 365 320 Q400 340 435 320 Q470 300 470 260 Q470 240 440 190 Z" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.7)" stroke-width="3"/>
+  <!-- Highlight on drop -->
+  <ellipse cx="385" cy="240" rx="15" ry="25" fill="rgba(255,255,255,0.1)" transform="rotate(-15, 385, 240)"/>
+  <!-- Small cross inside drop -->
+  <line x1="400" y1="245" x2="400" y2="275" stroke="rgba(255,255,255,0.5)" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="385" y1="260" x2="415" y2="260" stroke="rgba(255,255,255,0.5)" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Program name -->
+  <text x="400" y="380" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="bold" fill="white" letter-spacing="1">Phlebotomy Technician</text>
+  <text x="400" y="415" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="rgba(255,255,255,0.7)" letter-spacing="2">STUDENTS IN TRAINING</text>
+  <rect x="300" y="435" width="200" height="2" rx="1" fill="rgba(255,255,255,0.3)"/>
+</svg>

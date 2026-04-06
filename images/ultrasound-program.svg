@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a4b7a"/>
+      <stop offset="100%" style="stop-color:#2d7bb8"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgba(255,255,255,0.15)"/>
+      <stop offset="100%" style="stop-color:rgba(255,255,255,0)"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <rect width="800" height="250" fill="url(#accent)"/>
+  <!-- Decorative circles -->
+  <circle cx="650" cy="80" r="120" fill="rgba(255,255,255,0.04)"/>
+  <circle cx="150" cy="420" r="80" fill="rgba(255,255,255,0.04)"/>
+  <!-- Monitor icon -->
+  <rect x="300" y="120" width="200" height="150" rx="10" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="3"/>
+  <rect x="320" y="140" width="160" height="110" rx="4" fill="rgba(255,255,255,0.1)"/>
+  <!-- Screen content - ultrasound wave -->
+  <path d="M330 195 Q360 160 380 195 Q400 230 420 195 Q440 160 460 195" fill="none" stroke="rgba(130,200,255,0.6)" stroke-width="2"/>
+  <path d="M330 210 Q360 180 380 210 Q400 240 420 210 Q440 180 460 210" fill="none" stroke="rgba(130,200,255,0.4)" stroke-width="1.5"/>
+  <!-- Monitor stand -->
+  <rect x="380" y="270" width="40" height="25" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="3"/>
+  <rect x="360" y="295" width="80" height="6" rx="3" fill="rgba(255,255,255,0.7)"/>
+  <!-- Program name -->
+  <text x="400" y="370" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="bold" fill="white" letter-spacing="1">Ultrasound Program</text>
+  <text x="400" y="405" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="rgba(255,255,255,0.7)" letter-spacing="2">STUDENTS IN TRAINING</text>
+  <!-- Bottom accent line -->
+  <rect x="300" y="425" width="200" height="2" rx="1" fill="rgba(255,255,255,0.3)"/>
+</svg>

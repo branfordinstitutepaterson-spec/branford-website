@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2c4a6b"/>
+      <stop offset="100%" style="stop-color:#5b86b8"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgba(255,255,255,0.12)"/>
+      <stop offset="100%" style="stop-color:rgba(255,255,255,0)"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <rect width="800" height="250" fill="url(#accent)"/>
+  <circle cx="660" cy="90" r="110" fill="rgba(255,255,255,0.04)"/>
+  <circle cx="140" cy="410" r="85" fill="rgba(255,255,255,0.04)"/>
+  <!-- Clipboard shape -->
+  <rect x="340" y="130" width="120" height="170" rx="8" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.7)" stroke-width="3"/>
+  <!-- Clipboard clip -->
+  <rect x="375" y="120" width="50" height="20" rx="4" fill="rgba(255,255,255,0.7)"/>
+  <!-- Document lines -->
+  <line x1="365" y1="175" x2="435" y2="175" stroke="rgba(255,255,255,0.5)" stroke-width="2" stroke-linecap="round"/>
+  <line x1="365" y1="195" x2="435" y2="195" stroke="rgba(255,255,255,0.4)" stroke-width="2" stroke-linecap="round"/>
+  <line x1="365" y1="215" x2="420" y2="215" stroke="rgba(255,255,255,0.4)" stroke-width="2" stroke-linecap="round"/>
+  <line x1="365" y1="235" x2="435" y2="235" stroke="rgba(255,255,255,0.35)" stroke-width="2" stroke-linecap="round"/>
+  <line x1="365" y1="255" x2="410" y2="255" stroke="rgba(255,255,255,0.3)" stroke-width="2" stroke-linecap="round"/>
+  <!-- Dollar sign -->
+  <text x="435" y="270" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="rgba(255,255,255,0.5)" font-weight="bold">$</text>
+  <!-- Checkmark -->
+  <polyline points="365,272 372,280 385,265" fill="none" stroke="rgba(130,220,180,0.7)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Program name -->
+  <text x="400" y="370" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="bold" fill="white" letter-spacing="1">Medical Billing &amp; Coding</text>
+  <text x="400" y="405" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="rgba(255,255,255,0.7)" letter-spacing="2">STUDENTS IN TRAINING</text>
+  <rect x="300" y="425" width="200" height="2" rx="1" fill="rgba(255,255,255,0.3)"/>
+</svg>
